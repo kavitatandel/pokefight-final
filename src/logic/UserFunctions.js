@@ -1,4 +1,6 @@
 import axios from 'axios'
+
+//register user
 export const register = user => {
     return axios.post('https://poke-wars.herokuapp.com/register', {
         first_name: user.firstName,
